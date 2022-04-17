@@ -11,7 +11,47 @@
 <ImageView
     android:layout_width="match_parent"
     android:layout_height="0dp"
-    android:layout_weight="1"
+    android:layout_weight="2"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
     android:src="@drawable/mother" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Born too soon"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_margin="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Care Guide for Mothers of Premature Babies"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The tutorial source is the 'Born too soon'  and 'Retinopathy of Prematurity' publications by the Armenian EyeCareProject"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/background_light"
+        android:textColor="@color/black"
+        android:text="START"
+        android:textAppearance="?android:textAppearanceMedium"/>
+</LinearLayout>
 
 </LinearLayout>
